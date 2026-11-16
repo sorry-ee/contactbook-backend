@@ -2,7 +2,7 @@
 
 Cloudflare Worker + D1，提供联系人管理与批量导入接口。仓库包含配套前端，可直接运行集成版本。
 
-- [在线应用](https://zhijiao-contactbook-sorryee.equal-cup-7231.chatgpt.site)
+- [在线应用](https://soul.hmlin-2028.workers.dev/)
 - [后端源码](backend/worker/index.js)
 - [前端仓库](https://github.com/sorry-ee/contactbook-frontend)
 - [代码规范](backend/CODING_STANDARDS.md)
@@ -40,3 +40,7 @@ node scripts/preview.mjs
 ## 验证
 
 8项自动测试覆盖增删改查、收藏、浏览器归属隔离、导入校验、重复记录、真实 Excel 往返、公式文本和静态文件访问。本地使用 SQLite 模拟接口；公网已验证导入、收藏、刷新数据保存和 Excel 下载。
+
+## 云部署
+
+[Cloudflare 部署与更新](backend/DEPLOY.md)，配置见 backend/wrangler.jsonc。
