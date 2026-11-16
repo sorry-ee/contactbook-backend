@@ -1,0 +1,12 @@
+{
+  "name": "soul",
+  "main": "dist/server/index.js",
+  "compatibility_date": "2026-11-16",
+  "workers_dev": true,
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "soul-contacts",
+    "database_id": "921c11c6-c8a2-4ed1-abcf-dc6f31bdbd4d",
+    "migrations_dir": "drizzle"
+  }]
+}
